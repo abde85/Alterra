@@ -18,26 +18,15 @@ namespace WindowsFormsApp1
 
         private void CheckDiagonalResult()
         {
-            if (txtInput.Text.Trim() == "")
-            {
-                MessageBox.Show("Please input data");
-            }
-            else
-            {
-                var data = txtInput.Text.Split('\n');
-                var rightData = RightDiagonalResult(data);
-                var leftData = LeftDiagonalResult(data);
-                var summaries = rightData + leftData;
-                textBoxSummaries.Text = summaries.ToString();
-            }
+            DiagonalResult();
         }
 
-        private int RightDiagonalResult(string[] data)
+        private void DiagonalResult()
         {
             var data1 = new int[] { 1, 2, 3, 4 };
-            var data2 = new int[] { 1, 2, 3, 4 };
-            var data3 = new int[] { 1, 2, 3, 4 };
-            var data4 = new int[] { 1, 2, 3, 4 };
+            var data2 = new int[] { 2, 3, 4, 5 };
+            var data3 = new int[] { 3, 4, 5, 6 };
+            var data4 = new int[] { 4, 5, 6, 7 };
 
             List<int[]> dataSummaries = new List<int[]>();
             dataSummaries.Add(data1);
@@ -45,38 +34,19 @@ namespace WindowsFormsApp1
             dataSummaries.Add(data3);
             dataSummaries.Add(data4);
 
-            var count = dataSummaries.Count;
+            var count = dataSummaries.Count - 1;
             var rightResult = 0;
             var leftResult = 0;
 
-            for (int i = 0; i < count - 1; i++)
+            for (int i = 0; i < count; i++)
             {
-                var item = dataSummaries[i];
-                var itemCount = item.Length;
-
-
+                rightResult += dataSummaries[i][i];
+                leftResult += dataSummaries[i][count - i];
             }
 
-            //var data1 = data[0].Split(' ');
-            //var data2 = data[1].Split(' ');
-            //var data3 = data[2].Split(' ');
-
-            //var result = Convert.ToInt32(data1[0]) + Convert.ToInt32(data2[1]) + Convert.ToInt32(data3[2]);
-            //textBoxDiagonalkekanan.Text = result.ToString();
-
-            return result;
-        }
-
-        private int LeftDiagonalResult(string[] data)
-        {
-            var data1 = data[0].Split(' ');
-            var data2 = data[1].Split(' ');
-            var data3 = data[2].Split(' ');
-
-            var result = Convert.ToInt32(data1[2]) + Convert.ToInt32(data2[1]) + Convert.ToInt32(data3[0]);
-            textBoxDiagonalKekiri.Text = result.ToString();
-
-            return result;
+            textBoxDiagonalkekanan.Text = rightResult.ToString();
+            textBoxDiagonalKekiri.Text = rightResult.ToString();
+            textBoxSummaries.Text = (rightResult + leftResult).ToString();
         }
 
     }

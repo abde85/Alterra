@@ -10,3 +10,15 @@ C:\Users\Ibnu Abbas\Documents\ION Systems Applications\Web\BackEnd\Web API .Net 
 C:\Users\Ibnu Abbas\Documents\ION Systems Applications\Web\BackEnd\Web API .Net 6\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Ibnu Abbas\Documents\ION Systems Applications\Web\BackEnd\Web API .Net 6\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormSoal1.resources
 C:\Users\Ibnu Abbas\Documents\ION Systems Applications\Web\BackEnd\Web API .Net 6\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormSoal2.resources
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormSoal1.resources
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormSoal2.resources
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Ibnu Abbas\source\repos\Alterra\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

@@ -30,7 +30,6 @@ namespace WindowsFormsApp1
                 {
                     return false;
                 }
-
             }
 
             return result;
